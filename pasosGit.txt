@@ -1,9 +1,10 @@
 DOCUMENTACION
 DATOS PARA GIT	
-UserName:
-Correo
+UserName: inserte su usuario de github
+Correo: inserte su correo con el cual esta registrado en github
 
-software manejo de contrasenas
+software manejo de contrasenas/tokens
+
 KEEPASSXC
 
 
@@ -12,31 +13,41 @@ Inicializacion Git e instalacion
 sudo apt install git
 
 creamos una carpeta con el nombre de proyecto de github
-ingresamos a esa carpeta
 
-git config --global user.email callejoseenrique@gmail.com
-git config --global user.name "JoseEnrriqueCalle"
+ingresamos a esa carpeta abrimos terminal dentro de la carpeta
+insertamos los sgtes datos
+git config --global user.email aquivatucorreo
+git config --global user.name "aquivatuusuario"
 
+inicializamos github
 git init 
 
-adicionamos el archivo pasosGit.txt
+creamos el archivo pasosGit.txt dentro de la carpeta
+
+adicionamos el archivo pasosGit.txt al github 
+
 git add pasosGit.txt
 
 
 realizamos un commit en el repositorio 
+
 git commit -m "first commit"
 
 realizamos un branch
 
 git branch -M main
 
-agregamos la ruta del origen
+agregamos la ruta del origen del github
 
 git remote add origin https://github.com/JoseEnrriqueCalle/tecweb2-doc.git
 
+realizamos el push
 
 git push -u origin main
 
+nos pedira usuario y contrasena 
+
+en nuestro caso la contrasena sera el token que hemos generado anteriormente y usaremos nuestro gestor de tokens KEEPASSXC
 
 
 
