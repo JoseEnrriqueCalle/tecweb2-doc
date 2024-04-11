@@ -50,7 +50,15 @@ nos pedira usuario y contrasena
 en nuestro caso la contrasena sera el token que hemos generado anteriormente y usaremos nuestro gestor de tokens KEEPASSXC
 
 
+Para Modificar y actualizar 
 
+editamos de forma visual a travez desde el mousepad o hacerlo con nano
+
+hacemos un git add pasosGit.txt
+
+git commit -m "modificacionpasosGit"
+
+git push -u origin main
 
 
 Modificacion pruebas
