@@ -1,0 +1,44 @@
+DOCUMENTACION
+DATOS PARA GIT	
+UserName:
+Correo
+
+software manejo de contrasenas
+KEEPASSXC
+
+
+
+Inicializacion Git e instalacion 
+sudo apt install git
+
+creamos una carpeta con el nombre de proyecto de github
+ingresamos a esa carpeta
+
+git config --global user.email callejoseenrique@gmail.com
+git config --global user.name "JoseEnrriqueCalle"
+
+git init 
+
+adicionamos el archivo pasosGit.txt
+git add pasosGit.txt
+
+
+realizamos un commit en el repositorio 
+git commit -m "first commit"
+
+realizamos un branch
+
+git branch -M main
+
+agregamos la ruta del origen
+
+git remote add origin https://github.com/JoseEnrriqueCalle/tecweb2-doc.git
+
+
+git push -u origin main
+
+
+
+
+
+
