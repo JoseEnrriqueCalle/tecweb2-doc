@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+ web:
+  image: nginx
+  volumes:
+   - ./code:/usr/share/nginx/html
+  ports:
+   - "8080:80"
+  environment:
+#  - NGINX_HOST=upds.lan
+   - NGINX_PORT=80
